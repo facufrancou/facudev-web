@@ -1,0 +1,20 @@
+.global-header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* justify-content: space-between; */
+/*     align-content: flex-end; */
+   /*  align-items: center; */
+    
+}
+.links-header li{
+    margin: 10px;
+}

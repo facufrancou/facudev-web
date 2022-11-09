@@ -1,8 +1,13 @@
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./home.css");
+
 body {
-  padding: 50px;
+  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: #00B7FF;
+html {
+  min-height: 100%;
+  position: relative;
 }
+
