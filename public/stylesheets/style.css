@@ -3,18 +3,21 @@
 @import url("./home.css");
 
 body {
-  /* padding: 50px; */
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
- /*  background-color: rgb(187, 0, 0); */
-  
-}
-html {
+  color: white;
+  width: 100%;
   min-height: 100%;
-  position: relative;
+  position: absolute;
   /* background-color: rgb(148, 109, 255); */
   background-image: url("/images/fondo2.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
- }
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ /*  background-color: rgb(187, 0, 0); */
+  
+}
+/* html {
+
+ } */
 

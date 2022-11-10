@@ -1,31 +1,45 @@
 /* Header global */
 .global-header{
-    background-color:transparent ;
+    background-color:tr ;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     backdrop-filter: blur(8px);
+}
+.logo-header{
+    text-shadow: 3px 3px 12px #000000;
+    text-align: center;
+}
+.carro{
+    width: 25%;
 }
 
 /* Links de accesos en header */
 li a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    text-shadow: 3px 3px 8px #000000;
 }
 .links-header ul{
-    display: flex;
+        display: flex;
     flex-direction: row;
+    justify-content: space-between;
     list-style: none;
-    margin-top: 10px;
+    padding: 0;
+    width: 394px;
+    /* margin-top: 10px; */
+    /* margin-left: 0; */
     color: white;
 }
 
 .links-header li{
     margin: 10px;
+    padding: 10px;
     font-size: 20px;
 }
 .links-header:hover li {
@@ -37,18 +51,34 @@ li a{
 
 /* Estilos para logo SVG */
 .open{
+    
     fill:#0652e9
 }
 
 .close{
+    
     fill:#8c52ff
 }
 
 .logo{
+    
     width: 40%;
     margin-bottom: 10px;
     margin-top: 8px;
 }
+.logo:hover{
+    animation: loader 2s 
+}
+@keyframes loader {
+    0% {
+     transform: rotateY(0deg);
+    }
+    
+    100% {
+        transform: rotateY(-360deg);
+      }
+    
+  }
 /* 
 .logo:hover .close{
     fill: #ffffff;
