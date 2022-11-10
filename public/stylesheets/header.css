@@ -1,12 +1,17 @@
+/* Header global */
 .global-header{
-    background-color: black;
+    background-color:transparent ;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    backdrop-filter: blur(10px);
+    position: absolute;
+    backdrop-filter: blur(8px);
 }
+
+/* Links de accesos en header */
 li a{
     text-decoration: none;
     color: white;
@@ -17,7 +22,6 @@ li a{
     list-style: none;
     margin-top: 10px;
     color: white;
-
 }
 
 .links-header li{
@@ -31,12 +35,33 @@ li a{
 }
 
 
+/* Estilos para logo SVG */
+.open{
+    fill:#0652e9
+}
+
+.close{
+    fill:#8c52ff
+}
+
 .logo{
     width: 40%;
     margin-bottom: 10px;
     margin-top: 8px;
 }
+/* 
+.logo:hover .close{
+    fill: #ffffff;
+    transform: rotate(90deg);
+    transition: 2s;
+}
+.logo:hover .open{
+    fill: #ffffff;
+    transform: rotate(-90deg);
+    transition: 2s;
+} */
 
+/* MediaQuerys */
 @media (max-width: 600px){
     .global-header{
         text-align: center;
@@ -48,4 +73,4 @@ li a{
         width: 60%;
     }
     
-   }
+}
